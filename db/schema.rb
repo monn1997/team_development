@@ -97,5 +97,3 @@ ActiveRecord::Schema.define(version: 2018_10_05_035232) do
   add_foreign_key "comments", "articles"
   add_foreign_key "teams", "users", column: "owner_id"
 end
-
-#
